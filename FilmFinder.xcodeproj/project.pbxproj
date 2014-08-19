@@ -36,6 +36,7 @@
 		9C1699DC4B95468ABF3C88D9 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EA6E02C69B4544A86B8CA1 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B589F4BB64344DF7A0FD8D8D /* Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		BE8E651219A34EE800A8E9B1 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		E4AEB21599E243BAB5AA3493 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F268D25B7FE0431F9638A911 /* FLMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLMAppDelegate.h; sourceTree = "<group>"; };
 		F30D774870C646AEBF11361D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +65,7 @@
 		1B6612DD2553452794A9A769 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				BE8E651219A34EE800A8E9B1 /* constants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";

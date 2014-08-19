@@ -1,0 +1,4 @@
+if [ ! -f Classes/Constants/constants.h ]; then
+  cp Classes/Constants/constants.h.sample Classes/Constants/constants.h
+  echo "Copied Classes/Constants/constants.h.sample to Classes/Constants/constants.h"
+fi

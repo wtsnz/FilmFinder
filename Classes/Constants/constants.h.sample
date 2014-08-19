@@ -1,0 +1,9 @@
+//
+//  constants.h
+//  FilmFinder
+//
+
+#define kSABNZBURL @""
+#define kSABNZBAPIKEY @""
+
+#define kNZBFINDERMOVIEWURL @""
