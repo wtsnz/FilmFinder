@@ -9,13 +9,20 @@
 #import "FLMAppDelegate.h"
 #import "DebugLog.h"
 
+#import "FLMFilmsTableViewController.h"
+
 @implementation FLMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    FLMFilmsTableViewController *filmsTableViewController = [FLMFilmsTableViewController new];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:filmsTableViewController];
+    
     // Configure Window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     

@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FCBB9A8EADD450484A28F1B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2822098B6DE4B9CBB6DBAB7 /* libPods.a */; };
 		2076F2035E7240C8A2646181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D774870C646AEBF11361D /* Foundation.framework */; };
 		7F318B7BF6F3442392491747 /* FLMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01971F7833014F14AD455D83 /* FLMAppDelegate.m */; };
 		BA7109BAD9D242618DE35BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AEB21599E243BAB5AA3493 /* main.m */; };
+		BE6A68D619A35C6200963DE7 /* FLMFilmsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A68D519A35C6200963DE7 /* FLMFilmsTableViewController.m */; };
+		BE6A68E219A4AB9500963DE7 /* FLMFilmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A68E119A4AB9500963DE7 /* FLMFilmTableViewCell.m */; };
+		BE8E651619A3579800A8E9B1 /* FLMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E651519A3579800A8E9B1 /* FLMAPIClient.m */; };
+		BE8E651F19A35AF100A8E9B1 /* FLMFilm.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E651E19A35AF000A8E9B1 /* FLMFilm.m */; };
 		EB64415D621C4EB699E80F56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6C18551B8741CEAFD46D84 /* Images.xcassets */; };
 		F9CECF3073334B0FB1049CF6 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1699DC4B95468ABF3C88D9 /* libPods-unit_tests.a */; };
 /* End PBXBuildFile section */
@@ -33,10 +38,20 @@
 		7F3752E72CB145B798E5751B /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		85C9454800ED4E4FB6C924FD /* FilmFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6C18551B8741CEAFD46D84 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B007CA5100F4D499C9ECF47 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9C1699DC4B95468ABF3C88D9 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2822098B6DE4B9CBB6DBAB7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EA6E02C69B4544A86B8CA1 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B589F4BB64344DF7A0FD8D8D /* Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		BE6A68D419A35C6200963DE7 /* FLMFilmsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMFilmsTableViewController.h; sourceTree = "<group>"; };
+		BE6A68D519A35C6200963DE7 /* FLMFilmsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMFilmsTableViewController.m; sourceTree = "<group>"; };
+		BE6A68E019A4AB9500963DE7 /* FLMFilmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMFilmTableViewCell.h; sourceTree = "<group>"; };
+		BE6A68E119A4AB9500963DE7 /* FLMFilmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMFilmTableViewCell.m; sourceTree = "<group>"; };
 		BE8E651219A34EE800A8E9B1 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		BE8E651419A3579800A8E9B1 /* FLMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMAPIClient.h; sourceTree = "<group>"; };
+		BE8E651519A3579800A8E9B1 /* FLMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMAPIClient.m; sourceTree = "<group>"; };
+		BE8E651D19A35AF000A8E9B1 /* FLMFilm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMFilm.h; sourceTree = "<group>"; };
+		BE8E651E19A35AF000A8E9B1 /* FLMFilm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMFilm.m; sourceTree = "<group>"; };
 		E4AEB21599E243BAB5AA3493 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F268D25B7FE0431F9638A911 /* FLMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLMAppDelegate.h; sourceTree = "<group>"; };
 		F30D774870C646AEBF11361D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -48,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2076F2035E7240C8A2646181 /* Foundation.framework in Frameworks */,
+				0FCBB9A8EADD450484A28F1B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +127,7 @@
 				E9B492CAE6544640B055D1D2 /* Frameworks */,
 				24E861C91864461894B459E7 /* Products */,
 				20870404F17E411E970036FC /* Pods-unit_tests.xcconfig */,
+				8B007CA5100F4D499C9ECF47 /* Pods.xcconfig */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -136,6 +153,8 @@
 		74F73B1995264328AA78E9D5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE6A68E019A4AB9500963DE7 /* FLMFilmTableViewCell.h */,
+				BE6A68E119A4AB9500963DE7 /* FLMFilmTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +218,8 @@
 		D19BD812092944D9BEDC069F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BE8E651419A3579800A8E9B1 /* FLMAPIClient.h */,
+				BE8E651519A3579800A8E9B1 /* FLMAPIClient.m */,
 				F268D25B7FE0431F9638A911 /* FLMAppDelegate.h */,
 				01971F7833014F14AD455D83 /* FLMAppDelegate.m */,
 				0A6E08057BA44AB6ABD88F1C /* DebugLog.h */,
@@ -218,6 +239,8 @@
 		E174EA008F3D4F47BE4A366C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BE8E651D19A35AF000A8E9B1 /* FLMFilm.h */,
+				BE8E651E19A35AF000A8E9B1 /* FLMFilm.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,6 +250,7 @@
 			children = (
 				9A4F128DDC8C4C33A2604637 /* iOS */,
 				9C1699DC4B95468ABF3C88D9 /* libPods-unit_tests.a */,
+				B2822098B6DE4B9CBB6DBAB7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,6 +258,8 @@
 		FBA1D532D8E245AE9E1C50EF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BE6A68D419A35C6200963DE7 /* FLMFilmsTableViewController.h */,
+				BE6A68D519A35C6200963DE7 /* FLMFilmsTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -245,10 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C839F957AB048558B2E3E60 /* Build configuration list for PBXNativeTarget "FilmFinder" */;
 			buildPhases = (
+				A2DAC4394F444935A05DBD5E /* Check Pods Manifest.lock */,
 				9FD007430D9B47E0B05FD1FB /* Sources */,
 				3C46465F08D44A9B8AA9223F /* Frameworks */,
 				1CD22763000F4C91A8AD0101 /* Resources */,
 				A45B23C2C00C49D0AE5B9A03 /* Warn for TODO and FIXME comments */,
+				A502AADEA80349418889BC5A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,6 +369,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-unit_tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A2DAC4394F444935A05DBD5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		A45B23C2C00C49D0AE5B9A03 /* Warn for TODO and FIXME comments */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +397,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		A502AADEA80349418889BC5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		B822128756DF4C3D89C52788 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -385,7 +443,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F318B7BF6F3442392491747 /* FLMAppDelegate.m in Sources */,
+				BE6A68E219A4AB9500963DE7 /* FLMFilmTableViewCell.m in Sources */,
 				BA7109BAD9D242618DE35BEF /* main.m in Sources */,
+				BE6A68D619A35C6200963DE7 /* FLMFilmsTableViewController.m in Sources */,
+				BE8E651619A3579800A8E9B1 /* FLMAPIClient.m in Sources */,
+				BE8E651F19A35AF100A8E9B1 /* FLMFilm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +464,7 @@
 /* Begin XCBuildConfiguration section */
 		110DC12AF1A54F2BAECDE20A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B007CA5100F4D499C9ECF47 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -427,6 +490,7 @@
 		};
 		5976E8AD6BEB4059A6275974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B007CA5100F4D499C9ECF47 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
